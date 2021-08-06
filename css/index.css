@@ -29,6 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+
+/* General element styling */
+
 	line-height: 1;
 }
 ol, ul {
@@ -66,10 +69,28 @@ p {
     line-height: 1.4;
 }
 
+/* Navigation Content Styling */
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+
+/* Top Image Content Styling */
+
+.top-image {
+    margin: 5% 0;
+}
+
+/* Body Content Styling */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* Top Content Styling */
 
 .top-content {
     display: flex;
@@ -84,6 +105,10 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+
+/* Middle Content Styling */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +137,121 @@ p {
     justify-content: center;
 }
 
+/*Box Coloring*/
+
+.middle-content .boxes .box-bluegreen {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-yellow {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-teal {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-orange {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-red {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-green {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-purple {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-pink {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-darkpurple {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-blue {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Bottom Content Styling */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +265,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer Content Styling */
 
 footer {
     width: 100%;
