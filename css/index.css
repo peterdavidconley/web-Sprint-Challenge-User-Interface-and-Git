@@ -262,6 +262,19 @@ header nav a {
     justify-content: center;
 }
 
+/* Four images with project description styling */
+
+#four-images {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#four-images div {
+    width: 50%;
+    margin: 3% 0;
+}
+
 
 /* Bottom Content Styling */
 
@@ -277,6 +290,12 @@ header nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* Work Together Section Styling */
+
+#work-together {
+    margin: 5% 0;
 }
 
 /* Footer Content Styling */
