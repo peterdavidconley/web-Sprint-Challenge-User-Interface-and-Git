@@ -69,6 +69,14 @@ p {
     line-height: 1.4;
 }
 
+button {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2% 6%;
+    font-size: 16px;
+}
+
 /* Navigation Content Styling */
 
 header nav {
@@ -273,6 +281,10 @@ header nav a {
 #four-images div {
     width: 50%;
     margin: 3% 0;
+}
+
+#four-images div h3 {
+    margin-top: 4%;
 }
 
 
