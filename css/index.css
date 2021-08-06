@@ -73,14 +73,27 @@ p {
 
 header nav {
     display: flex;
-    justify-content: space-around;
-    margin: 5% 0;
+    justify-content: space-evenly;
+    margin: 2% 0;
+    
 }
+header nav img {
+    
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    width: 75%;
+}
+
+
 
 /* Top Image Content Styling */
 
 .top-image {
-    margin: 5% 0;
+    margin-top: 0%;
+    margin-bottom: 5%;
 }
 
 /* Body Content Styling */
